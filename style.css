@@ -87,11 +87,43 @@ img {
   padding: 100px 0;
   padding-right: 200px;
 }
-#about .container .about-info h2 {
+.section-title {
   color: #707070;
   text-transform: capitalize;
 }
-#about .container .about-info p {
+.section-desciption {
   margin: 30px 0 90px;
+  text-transform: capitalize;
   line-height: 30px;
+}
+
+#recipies {
+  padding: 50px;
+  text-align: center;
+}
+#recipies .section-desciption {
+  margin-bottom: 10px;
+}
+#recipies .container .recipies {
+  display: flex;
+}
+#recipies .container .recipies .recipie {
+  height: 100%;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: left;
+  padding: 15px;
+  box-shadow: 10px 10px 20px rgb(189, 189, 189);
+}
+#recipies .container .recipies .recipie img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+#recipies .container .recipies .recipie h2 {
+  color: #0b0d17;
+  margin-bottom: 10px;
+}
+#recipies .container .recipies .recipie p {
+  text-transform: capitalize;
+  line-height: 25px;
 }
