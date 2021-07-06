@@ -127,6 +127,24 @@ img {
   text-transform: capitalize;
   line-height: 25px;
 }
+#extra .container {
+  box-shadow: 10px 10px 20px rgb(189, 189, 189);
+  border-radius: 20px;
+  margin: 0 90px;
+  padding: 50px 80px;
+  margin-bottom: 80px;
+}
+#extra .container .extras {
+  display: flex;
+  justify-content: space-between;
+}
+#extra .container .extras .extra {
+  padding: 30px;
+  text-align: left;
+}
+#extra .container .extras .extra h1 {
+  font-size: 40px;
+}
 footer {
   background: #0b0d17;
   padding: 20px 90px;
