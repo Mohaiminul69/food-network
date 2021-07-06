@@ -8,12 +8,31 @@ nav {
   background: #0b0d17;
   padding: 20px 90px;
 }
+nav .container {
+  display: flex;
+}
+nav .container ul {
+  margin-left: auto;
+  display: flex;
+  margin-top: 8px;
+  list-style: none;
+}
+nav .container ul li {
+  margin-right: 10px;
+}
 nav .container a {
   color: #5b5b5b;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
+}
+nav .container ul li a {
+  background: #fb7f42;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  color: white;
 }
 nav .container a span {
   color: #fb7f42;
