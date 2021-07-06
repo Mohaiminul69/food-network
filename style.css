@@ -11,7 +11,7 @@ nav {
 nav .container a {
   color: #5b5b5b;
   text-decoration: none;
-  text-transform: up;
+  text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
 }
@@ -126,4 +126,26 @@ img {
 #recipies .container .recipies .recipie p {
   text-transform: capitalize;
   line-height: 25px;
+}
+footer {
+  background: #0b0d17;
+  padding: 20px 90px;
+  text-align: center;
+}
+footer .container a {
+  color: #5b5b5b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+footer .container a span {
+  color: #fb7f42;
+}
+footer .container p {
+  margin-bottom: 40px;
+  color: white;
+  text-transform: uppercase;
 }
