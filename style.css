@@ -62,6 +62,7 @@ img {
 #banner .container .banner-info p {
   color: #828282;
   margin: 20px 0 45px;
+  line-height: 25px;
 }
 #banner .container .banner-img {
   height: 100%;
@@ -131,10 +132,11 @@ img {
   box-shadow: 5px 5px 20px rgb(223, 223, 223);
   border-radius: 20px;
   margin: 0 90px;
-  padding: 50px 80px;
+  padding: 40px 80px;
   margin-bottom: 80px;
 }
 #extra .container .extras {
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
