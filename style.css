@@ -1,5 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+nav {
+  background: #0b0d17;
+  padding: 20px 90px;
+}
+nav .container a {
+  color: #5b5b5b;
+  text-decoration: none;
+  text-transform: up;
+  font-weight: bold;
+  font-size: 30px;
+}
+nav .container a span {
+  color: #fb7f42;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.btn {
+  background: linear-gradient(to right, #fb984c, #fe482e);
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+#banner {
+  height: 100vh;
+}
+#banner .container {
+  height: 100%;
+  display: flex;
+  padding-left: 90px;
+}
+#banner .container .banner-info h1 {
+  margin-top: 170px;
+  font-size: 50px;
+  color: #575757;
+  text-transform: capitalize;
+}
+#banner .container .banner-info h1 span {
+  color: #fb984c;
+}
+#banner .container .banner-info p {
+  color: #828282;
+  margin: 20px 0 45px;
+}
+#banner .container .banner-img {
+  height: 100%;
+  padding: 20px 0;
+}
+
+#about {
+  background: url("/img/shapes/7.png") no-repeat;
+  height: 80vh;
+}
+#about .container {
+  height: 100%;
+  display: flex;
+}
+#about .container .about-img {
+  width: 55%;
+}
+#about .container .about-img img {
+  margin-top: 20px;
+}
+#about .container .about-info {
+  width: 55%;
+  padding: 100px 0;
+  padding-right: 200px;
+}
+#about .container .about-info h2 {
+  color: #707070;
+  text-transform: capitalize;
+}
+#about .container .about-info p {
+  margin: 30px 0 90px;
+  line-height: 30px;
 }
